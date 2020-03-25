@@ -1,0 +1,10 @@
+README.md
+setup.py
+brij/Auth.py
+brij/MpesaServices.py
+brij/__init__.py
+brij/urls.py
+brij_py.egg-info/PKG-INFO
+brij_py.egg-info/SOURCES.txt
+brij_py.egg-info/dependency_links.txt
+brij_py.egg-info/top_level.txt
