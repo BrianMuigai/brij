@@ -1,6 +1,6 @@
 import requests
-import Auth
-import urls
+from brij.base import Auth
+from brij import urls
 
 class MpesaServices(Auth):
     

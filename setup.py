@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="brij-py",
-    version="0.0.1",
+    name="brij-fintech",
+    version="0.0.4",
     author="Brian Muigai",
     author_email="brianmuigai1@gmail.com",
     description="A library for brij fintech",

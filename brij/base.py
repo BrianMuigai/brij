@@ -1,7 +1,7 @@
 import requests
 from requests.auth import HTTPBasicAuth
 import os
-import urls
+from brij import urls
 
 class Auth:
     
