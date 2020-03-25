@@ -1,11 +1,11 @@
 import requests
-from auth import BrijBase
+import Auth
 import urls
 
-class MpesaService(BrijBase):
+class MpesaServices(Auth):
     
     def __init__(self, env='sandbox', app_id=None, app_key=None):
-        BrijBase.__init__(self, env, app_id, app_key)
+        Auth.__init__(self, env, app_id, app_key)
         self.authenticate()
         
     def mpesa_to_acc(self, amount, sender, sender_phone, description=None):

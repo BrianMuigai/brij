@@ -1,10 +1,10 @@
 Metadata-Version: 2.1
-Name: brij-brianmuigai
+Name: brij-fintech
 Version: 0.0.1
 Summary: A library for brij fintech
 Home-page: https://github.com/brianmuigai/brij
 Author: Brian Muigai
-Author-email: brijtech@gmail.com
+Author-email: brianmuigai1@gmail.com
 License: UNKNOWN
 Description: # brij
         A client api for brij fintech

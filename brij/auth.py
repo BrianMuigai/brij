@@ -3,7 +3,7 @@ from requests.auth import HTTPBasicAuth
 import os
 import urls
 
-class BrijBase:
+class Auth:
     
     def __init__(self, env='sandbox', app_id=None, app_key=None):
         self.env = env
