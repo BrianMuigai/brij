@@ -12,7 +12,7 @@ in order to use brij services,you'll need to follow these simple steps
 
 ## Integration
 
-*** Direct Payment ***
+***Direct Payment***
 sending direct payment from your customer to your brij account
 ```
 from brij.mpesa import MpesaService
@@ -27,7 +27,7 @@ else:
 - the description text must not exceed 16 chars
 - MPESA-NUMBER is the number making the transaction. the supported format starts is 254712345678
 - 
-*** Escrow ***
+***Escrow***
 sending escrow payment between your customers with your account acting as an escrow account
 ```
 from mpesa import MpesaService
