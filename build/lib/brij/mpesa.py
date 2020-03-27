@@ -2,7 +2,7 @@ import requests
 from brij.base import Auth
 from brij import urls
 
-class MpesaServices(Auth):
+class MpesaService(Auth):
     
     def __init__(self, env='sandbox', app_id=None, app_key=None):
         Auth.__init__(self, env, app_id, app_key)
