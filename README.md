@@ -2,7 +2,7 @@
 A client api for brij fintech
 
 ## installation
-```pip install brij-fintech==0.0.4```
+```pip install brij-fintech==0.0.5```
 
 ## getting started
 in order to use brij services,you'll need to follow these simple steps

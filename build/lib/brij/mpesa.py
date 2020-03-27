@@ -6,9 +6,9 @@ class MpesaService(Auth):
     
     def __init__(self, env='sandbox', app_id=None, app_key=None):
         Auth.__init__(self, env, app_id, app_key)
-        self.authenticate()
         
     def mpesa_to_acc(self, amount, sender, sender_phone, description=None):
+        self.authenticate()
         '''
         this method uses MPESA API to send cash from your app user to your account in brij.
         **Args:*"
@@ -36,6 +36,7 @@ class MpesaService(Auth):
         return r
         
     def mpesa_to_escrow(self, amount, sender, recepient, sender_phone, description=None):
+        self.authenticate()
         '''
         this method uses MPESA API to escrow cash between your app users, using your Brij account as the escrow account
         ***Args***

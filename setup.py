@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="brij-fintech",
-    version="0.0.5",
+    version="0.0.6",
     author="Brian Muigai",
     author_email="brianmuigai1@gmail.com",
     description="A library for brij fintech",
