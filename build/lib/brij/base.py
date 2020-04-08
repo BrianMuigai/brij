@@ -12,7 +12,7 @@ class Auth:
         
         
     def authenticate(self):
-        authenticate_url = '{}{}'.format(urls.base_url, urls.tokens)
+        authenticate_url = urls.tokens
         r = requests.get(authenticate_url,
                          auth=HTTPBasicAuth(self.app_id, self.app_key))
 

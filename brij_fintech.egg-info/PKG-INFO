@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: brij-fintech
-Version: 0.0.6
+Version: 0.0.7
 Summary: A library for brij fintech
 Home-page: https://github.com/brianmuigai/brij
 Author: Brian Muigai
@@ -10,7 +10,7 @@ Description: # brij
         A client api for brij fintech
         
         ## installation
-        ```pip install brij-fintech==0.0.4```
+        ```pip install brij-fintech==0.0.5```
         
         ## getting started
         in order to use brij services,you'll need to follow these simple steps
